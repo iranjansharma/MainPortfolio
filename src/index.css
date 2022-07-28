@@ -1,0 +1,127 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* colors  */
+
+  --cadet-blue-crayola: hsl(240, 10%, 70%);
+  --gold-web-golden: hsl(50, 100%, 54%);
+  --vivid-sky-blue: hsl(196, 84%, 63%);
+  --midnight-blue: hsl(231, 83%, 25%);
+  --minion-yellow: hsl(50, 100%, 64%);
+  --independence: hsl(225, 24%, 27%);
+  --orange-soda: hsl(7, 96%, 61%);
+  --space-cadet: hsl(243, 23%, 18%);
+  --fiery-rose: hsl(353, 83%, 65%);
+  --klein-blue: hsl(230, 80%, 39%);
+  --bluetiful: hsl(222, 88%, 55%);
+  --glaucous: hsl(230, 52%, 63%);
+  --manatee: hsl(254, 7%, 65%);
+  --rufous: hsl(2, 85%, 35%);
+  --black: hsl(0, 0%, 0%);
+  --white: hsl(0, 0%, 100%);
+
+  /*typography */
+
+  --ff-poppins: 'Poppins', sans-serif;
+
+  --fs-1: 3.5rem;
+  --fs-2: 3rem;
+  --fs-3: 2.4rem;
+  --fs-4: 2rem;
+  --fs-5: 1.8rem;
+  --fs-6: 1.3rem;
+
+  --fw-600: 600;
+  --fw-700: 700;
+
+  /* border radius  */
+
+  --radius-5: 5px;
+  --radius-10: 10px;
+  --radius-15: 15px;
+  --radius-20: 20px;
+
+  /* spacing  */
+
+  --section-padding: 60px;
+
+  /*   shadow     */
+
+  --shadow: 0 -5px 10px var(--manatee);
+
+  /* transition  */
+
+  --transition-1: 0.05s ease;
+  --transition-2: 0.25s ease;
+  --cubic-out: cubic-bezier(0.33, 0.85, 0.56, 1.02);
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  scroll-behavior: smooth;
+  background-color: var(--space-cadet);
+  color: var(--cadet-blue-crayola);
+  font-size: 1.6rem;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+/* ::-webkit-scrollbar-thumb {
+  background: #ff3d00;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}*/
+
+/* ::-webkit-scrollbar-track {
+  background: #263038;
+} */
+::selection {
+  color: #ff0063;
+  background: #5fd068;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #787b82;
+  border: 2px solid #b8373700;
+  border-radius: 10px;
+  background-clip: padding-box;
+}
+
+.custom {
+  background-image: linear-gradient(
+    241deg,
+    #982ff7 20%,
+    #524add 56%,
+    #6668eb 84%
+  );
+  /* background-image: linear-gradient(139deg, #8f5cff 30%, #f53d30 68%, #e8a006); */
+  /* background-image: linear-gradient(191deg, #f1dc39 25%, #c96e05 87%); */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.background {
+  background-image: radial-gradient(at 13% 98%, #f5e8a1 0, transparent 44%),
+    radial-gradient(at 81% 100%, #b8f4ff 0, transparent 41%),
+    radial-gradient(at 76% 52%, rgba(248, 139, 203, 0.822) 0, transparent 86%),
+    radial-gradient(at 80% 28%, #f9dd95 0, transparent 100%);
+}
+
+.bg {
+  background: rgb(81, 83, 204);
+  background: linear-gradient(
+    90deg,
+    rgba(81, 83, 204, 1) 0%,
+    rgba(42, 201, 205, 1) 100%
+  );
+}
