@@ -15,7 +15,7 @@ const Home: FC = () => {
           </h2>
 
           <p className='font-lato text-lg font-normal leading-relaxed md:py-4'>
-            Adipisicing elit. Neque nulla voluptatum eos repellat deserunt nesciunt tempore porro totam.
+            I am enthusiastic Web Developer eager to contribute to team success through hard work, attention to detail, and excellent organizational skills.
           </p>
           <button className='font-barlow px-8 py-2.5 bg-secondary-color text-sm md:text-lg font-semibold hover:bg-red-500 duration-500 rounded-full mr-6 tracking-wider'>Get a Quote</button>
           <button className='font-barlow px-8 py-2.5 bg-red-500 text-sm md:text-lg font-semibold hover:bg-secondary-color duration-500 rounded-full tracking-wider'>About Me</button>
