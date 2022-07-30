@@ -1,21 +1,19 @@
 pipeline {
     agent any 
     stages {
-        stage('Build') { 
+        stage('Dependencies Install') { 
             steps {
                 echo "node --version" 
                 nodejs("Node"){
-                    sh "node --version"
-                    echo "Checking Node Version"
+                    sh "npm install"
                 }
             }
         }
-        stage('Test') { 
+        stage('Application Build ') { 
             steps {
                 echo "Test Node"
                 nodejs("Node"){
-                    sh "npm --version"
-                    echo "Checking NPM Version"
+                    sh "npm run build"
                 }  
             }
         }
