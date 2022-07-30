@@ -20,7 +20,8 @@ pipeline {
         stage('Deploy Stage') { 
             steps {
                 echo "Deploy Stage"
-                sh "cp -r /var/lib/docker/volumes/jenkins_home/_data/workspace/Portfolio/build /home/ranjan/ranjansharma.tech"
+                sh"pwd"
+                sh "cp -r /jenkins_home/_data/workspace/Portfolio/build /home/ranjan/ranjansharma.tech"
             }
         }
     }
