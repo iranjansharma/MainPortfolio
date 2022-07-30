@@ -38,10 +38,10 @@ const Nav: FC = () => {
           : 'bg-transparent'
       }
     >
-      <div className='container flex py-4 px-2 mx-auto md:text-center md:justify-between '>
+      <div className='container flex py-4 px-2 mx-auto md:text-center md:justify-between md:w-3/5'>
         <div>
           <Link to='/'>
-            <h1 className='text-2xl md:text-3xl text-white font-black'>
+            <h1 className='text-2xl md:text-3xl text-white font-black font-lato'>
               Ranjan Sharma
             </h1>
           </Link>
@@ -49,14 +49,14 @@ const Nav: FC = () => {
         <div className='hidden items-end md:flex md:items-center gap-8'>
           {navItems.map(navItems => (
             <Link to={`/${navItems.title}`} key={navItems.id}>
-              <h1 className='text-base text-white font-bold hover:text-red-500 duration-200'>
+              <h1 className='font-lato text-base text-white font-bold hover:text-red-500 duration-200'>
                 {navItems.title}
               </h1>
             </Link>
           ))}
-          <button className='px-6 py-1.5 block bg-red-500 duration-500 rounded-full'>
+          <button className='px-6 py-1.5 font-lato bg-red-500 duration-500 rounded-full'>
             <h1 className='text-base text-white font-bold hover:text-white duration-300'>
-              <a href='tel:+918178540300'>Download CV</a>
+              <a href='/Ranjan_Resume.pdf' download='Ranjan_Resume.pdf'>Download CV</a>
             </h1>
           </button>
         </div>
