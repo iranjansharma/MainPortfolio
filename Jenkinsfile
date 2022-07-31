@@ -17,12 +17,5 @@ pipeline {
                 }  
             }
         }
-        stage('Deploy Stage') { 
-            steps {
-                echo "Deploy Stage"
-                sh"pwd"
-                sh "cp -r /var/jenkins_home/workspace/Portfolio/build /home/ranjan/ranjansharma.tech/"
-            }
-        }
     }
     }
