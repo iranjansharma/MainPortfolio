@@ -80,9 +80,8 @@ body {
   background: #263038;
 } */
 ::selection {
-  color: #ff0063;
-  background: #5fd068;
-  border-radius: 20px;
+  color: white;
+  background: purple;
 }
 
 ::-webkit-scrollbar {
