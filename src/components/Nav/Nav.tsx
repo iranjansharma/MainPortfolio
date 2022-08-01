@@ -1,6 +1,8 @@
 import React, { FC, useState } from 'react';
 import { Link } from 'react-router-dom';
 
+import { GiHamburgerMenu } from 'react-icons/gi';
+
 const Nav: FC = () => {
   const [colorChange, setColorchange] = useState(false);
   const changeNavbarColor = () => {
@@ -14,19 +16,23 @@ const Nav: FC = () => {
 
   const navItems = [{
     id: 1,
-    title: 'Home'
+    title: 'Home',
+    link: ''
   },
   {
     id: 2,
-    title: 'About'
+    title: 'About',
+    link: 'about'
   },
   {
     id: 3,
-    title: 'Skills'
+    title: 'Skills',
+    link: 'skills'
   },
   {
     id: 4,
-    title: 'Projects'
+    title: 'Projects',
+    link: 'projects'
   }]
 
 
@@ -34,21 +40,19 @@ const Nav: FC = () => {
     <div
       className={
         colorChange
-          ? 'bg-[#242338] duration-300 ease-linear sticky top-0 z-50 '
+          ? 'bg-[#242338] duration-300 ease-linear sticky top-0 z-50 drop-shadow-2xl'
           : 'bg-transparent'
       }
     >
-      <div className='container flex py-4 px-2 mx-auto md:text-center md:justify-between md:w-3/5'>
-        <div>
-          <Link to='/'>
-            <h1 className='text-2xl md:text-3xl text-white font-black font-lato'>
-              Ranjan Sharma
-            </h1>
-          </Link>
-        </div>
+      <div className='container flex py-4 px-2 mx-auto items-center md:text-center md:justify-between md:w-3/5'>
+        <Link to='/'>
+          <h1 className='text-2xl md:text-3xl text-white font-black font-lato'>
+            Ranjan Sharma
+          </h1>
+        </Link>
         <div className='hidden items-end md:flex md:items-center gap-8'>
           {navItems.map(navItems => (
-            <Link to={`/${navItems.title}`} key={navItems.id}>
+            <Link to={`/${navItems.link}`} key={navItems.id}>
               <h1 className='font-lato text-base text-white font-bold hover:text-red-500 duration-200'>
                 {navItems.title}
               </h1>
@@ -59,6 +63,10 @@ const Nav: FC = () => {
               <a href='/Ranjan_Resume.pdf' download='Ranjan_Resume.pdf'>Download CV</a>
             </h1>
           </button>
+        </div>
+        <div className='flex md:hidden'>
+          <GiHamburgerMenu className='text-white justify-items-end items-center' />
+
         </div>
       </div>
     </div>

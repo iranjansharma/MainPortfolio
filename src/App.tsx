@@ -43,7 +43,6 @@ const App: FC = () => {
             <Route path='/projects' element={<Projects />} />
             <Route />
           </Routes>
-          <Home />
         </BrowserRouter>
       )}
     </>

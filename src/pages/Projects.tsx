@@ -1,18 +1,15 @@
 import { FC } from 'react';
 import Card from '../components/Card/Card';
+import Nav from '../components/Nav/Nav';
 
 const Projects: FC = () => {
   return (
-    <div className='container mx-auto'>
-      <h1 className='text-6xl font-black pt-5 text-center custom my-10'>
-        Projects
-      </h1>
-      <div className='grid grid-cols-3 gap-4 px-30'>
-        <Card />
-        <Card />
-        <Card />
-      </div>
+
+    <div className='bg-[url("/public/assets/hero-bg.jpg")] md:bg-cover h-screen'>
+      <Nav />
+      <Card />
     </div>
+
   );
 };
 

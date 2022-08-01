@@ -1,11 +1,10 @@
 import { FC } from 'react';
+import Nav from '../components/Nav/Nav';
 
 const Skills: FC = () => {
   return (
-    <div className='container mx-auto '>
-      <h1 className='text-6xl font-black pt-5 text-center custom my-10'>
-        Skills
-      </h1>
+    <div className='bg-[url("/public/assets/hero-bg.jpg")] md:bg-cover h-screen'>
+      <Nav />
     </div>
   );
 };

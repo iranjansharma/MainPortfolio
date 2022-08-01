@@ -1,14 +1,11 @@
 import { FC } from 'react';
 import Card from '../components/Card/Card';
+import Nav from '../components/Nav/Nav';
 
 const About: FC = () => {
   return (
-    <div>
-      <div className='container mx-auto py-5'>
-        <h1 className='text-6xl font-black pt-5 text-center custom'>
-          About Me
-        </h1>
-      </div>
+    <div className='bg-[url("/public/assets/hero-bg.jpg")] md:bg-cover h-screen'>
+      <Nav />
       <Card />
     </div>
   );
