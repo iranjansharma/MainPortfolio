@@ -7,6 +7,7 @@ const Card: FC = () => {
         <a href='#!' data-mdb-ripple='true' data-mdb-ripple-color='light'>
           <img
             className='rounded-t-lg'
+            draggable='false'
             src='https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/1Td2vgC8TOCkJIx2FSDg'
             alt='Skills'
           />
