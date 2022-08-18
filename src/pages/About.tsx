@@ -4,7 +4,7 @@ import Nav from '../components/Nav/Nav';
 
 const About: FC = () => {
   return (
-    <div className='bg-[url("/public/assets/hero-bg.jpg")] md:bg-cover h-screen'>
+    <div className='bg-[url("/public/assets/Hero-2.png")] md:bg-cover h-screen'>
       <Nav />
       <Card />
     </div>

@@ -32,6 +32,7 @@ const App: FC = () => {
         <Loader />
       ) : (
         <BrowserRouter>
+          {/* <Nav /> */}
           <Routes>
             <Route path='/' element={<Home />} />
             <Route />

@@ -3,7 +3,7 @@ import Nav from '../components/Nav/Nav';
 
 const Skills: FC = () => {
   return (
-    <div className='bg-[url("/public/assets/hero-bg.jpg")] md:bg-cover h-screen'>
+    <div className='bg-[url("/public/assets/bg2.png")] md:bg-cover h-screen'>
       <Nav />
     </div>
   );

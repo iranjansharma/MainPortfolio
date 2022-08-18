@@ -1,4 +1,5 @@
 import { FC } from 'react';
+import About from '../../pages/About';
 import Nav from '../Nav/Nav';
 import "./Home.css"
 
