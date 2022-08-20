@@ -18,8 +18,8 @@ const Home: FC = () => {
             <p className='font-lato text-lg font-normal leading-relaxed my-2 md:py-4'>
               I Am Enthusiastic Web Developer Eager To<br /> Contribute To Team Success Through Hard Work, <br />Attention To Detail, And Excellent<br /> Organizational Skills.
             </p>
-            <button className='font-barlow px-8 py-2.5 bg-secondary-color text-sm md:text-lg font-semibold hover:bg-red-500 duration-500 rounded-full mr-6 tracking-wider'>Get a Quote</button>
-            <button className='font-barlow px-8 py-2.5 bg-red-500 text-sm md:text-lg font-semibold hover:bg-secondary-color hover:cursor-wait  duration-500 rounded-full tracking-wider'>About Me</button>
+            <button className='font-barlow px-8 py-2.5 bg-red-500 text-sm md:text-lg font-semibold hover:bg-secondary-color duration-500 rounded-full mr-6 tracking-wider'>Get a Quote</button>
+            <button className='font-barlow px-8 py-2.5 bg-transparent border-2 text-sm md:text-lg font-semibold  duration-500 rounded-full tracking-wider'>About Me</button>
           </div>
           <div className='relative'>
             <img src="/assets/profile-pic3.png" alt="Ranjan-Sharma" loading='lazy' draggable="false" className='w-[160px] mx-auto md:w-[380px] md:h-[390px] rounded-lg' />
