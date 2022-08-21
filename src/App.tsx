@@ -1,7 +1,7 @@
 import { FC, useEffect, useState, useRef } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
-import Home from './components/Home/Home';
+import Home from './pages/Home/Home';
 import Loader from './components/Loader/Loader';
 import Nav from './components/Nav/Nav';
 import About from './pages/About';

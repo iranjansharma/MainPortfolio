@@ -58,7 +58,7 @@ const Nav: FC = () => {
               </h1>
             </Link>
           ))}
-          <button className='px-6 py-1.5 font-lato bg-red-500 duration-500 rounded-full'>
+          <button className='px-6 py-1.5 font-lato bg-transparent border-2 hover:bg-red-500 duration-500 rounded-full'>
             <h1 className='text-base text-white font-bold hover:text-white duration-300'>
               <a href='/Ranjan_Resume.pdf' download='Ranjan_Resume.pdf'>Download CV</a>
             </h1>
