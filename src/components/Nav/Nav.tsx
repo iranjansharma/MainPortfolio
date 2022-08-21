@@ -60,7 +60,7 @@ const Nav: FC = () => {
           ))}
           <button className='px-6 py-1.5 font-lato bg-transparent border-2 hover:bg-red-500 duration-500 rounded-full'>
             <h1 className='text-base text-white font-bold hover:text-white duration-300'>
-              <a href='/Ranjan_Resume.pdf' download='Ranjan_Resume.pdf'>Download CV</a>
+              <a href='https://drive.google.com/file/d/1y651QMtbT1Q6561QwnTT8gZsyjE07CGc/view?usp=sharing' target="_blank">Download CV</a>
             </h1>
           </button>
         </div>
