@@ -22,7 +22,7 @@ const Home: FC = () => {
             <button className='font-barlow px-8 py-2.5 bg-transparent border-2 text-sm hover:bg-red-500 md:text-lg font-semibold  duration-500 rounded-full tracking-wider'>About Me</button>
           </div>
           <div className='relative'>
-            <img src="/assets/profile-pic3.png" alt="Ranjan-Sharma" loading='lazy' draggable="false" className='w-[160px] mx-auto md:w-[380px] md:h-[390px] rounded-lg' />
+            <img src="/assets/profile-pic3.png" alt="Ranjan-Sharma" loading='lazy' draggable="false" className='w-[160px] mx-auto md:w-[380px] md:h-[390px] rounded-lg animate' />
           </div>
         </div >
       </div >

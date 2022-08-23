@@ -1,6 +1,11 @@
 import { FC } from 'react';
 
 const Card: FC = () => {
+  interface Card {
+    title: string;
+    description: string;
+  }
+
   return (
     <div className='flex justify-center flex-grow pb-10 md:m-4 md:pb-8'>
       <div className='rounded-lg shadow-lg bg-white max-w-xs'>
