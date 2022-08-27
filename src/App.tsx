@@ -35,11 +35,8 @@ const App: FC = () => {
           {/* <Nav /> */}
           <Routes>
             <Route path='/' element={<Home />} />
-            <Route />
             <Route path='/about' element={<About />} />
-            <Route />
             <Route path='/skills' element={<Skills />} />
-            <Route />
             <Route path='/projects' element={<Projects />} />
             <Route />
           </Routes>
