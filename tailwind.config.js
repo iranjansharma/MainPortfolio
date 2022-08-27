@@ -4,6 +4,7 @@ module.exports = {
     fontFamily: {
       barlow: ['Barlow', 'sans-serif'],
       lato: ['lato', 'sans-serif'],
+      readex: ['Readex Pro', 'sans-serif']
     },
     extend: {
       lineHeight: {
