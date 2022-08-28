@@ -12,7 +12,7 @@ const Home: FC = () => {
           <div className="text-white text-center md:text-left md:basis-2/4">
             <h2 className='pt-8'>
               <span className='font-readex text-3xl font-semibold'>Hello I'm</span><br />
-              <span className='font-readex font-bold text-4xl md:text-6xl md:font-black tracking-wide leading-relaxed'>Ranjan Sharma</span><br />
+              <span className='font-readex font-bold text-4xl md:text-[56px] md:font-black leading-relaxed'>Ranjan Sharma</span><br />
               <span className='font-barlow text-lg font-semibold leading-loose'>Full-Stack Web Developer MERN.</span>
             </h2>
             <p className='font-readex text-lg font-light leading-relaxed my-2 md:py-4'>
