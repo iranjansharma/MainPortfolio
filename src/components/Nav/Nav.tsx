@@ -44,7 +44,7 @@ const Nav: FC = () => {
           : 'bg-transparent'
       }
     >
-      <div className='container flex py-4 px-2 mx-auto items-center md:text-center md:justify-between md:w-3/5'>
+      <div className='container flex py-4 px-2 mx-auto justify-between items-center md:text-center md:justify-between md:w-3/5'>
         <Link to='/'>
           <h1 className='font-readex text-2xl md:text-3xl text-white font-black'>
             Ranjan Sharma
@@ -65,8 +65,7 @@ const Nav: FC = () => {
           </button>
         </div>
         <div className='flex md:hidden'>
-          <GiHamburgerMenu className='text-white justify-items-end items-center' />
-
+          <GiHamburgerMenu className='text-white justify-items-end items-center w-24' />
         </div>
       </div>
     </div>

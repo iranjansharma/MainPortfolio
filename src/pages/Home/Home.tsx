@@ -6,7 +6,7 @@ import "./Home.css"
 const Home: FC = () => {
   return (
     <div>
-      <div className='bg-[url("/public/assets/dash.png")] md:bg-cover h-screen'>
+      <div className='bg-[url("/public/assets/hero-bg.jpg")] md:bg-cover h-screen'>
         <Nav />
         <div className='container mx-auto flex flex-col-reverse pt-36 md:flex-row md:items-center md:justify-between md:w-3/5'>
           <div className="text-white text-center md:text-left md:basis-2/4">
