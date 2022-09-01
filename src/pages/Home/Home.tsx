@@ -15,7 +15,7 @@ const Home: FC = () => {
               <span className='font-readex font-bold text-4xl md:text-[56px] md:font-black leading-relaxed'>Ranjan Sharma</span><br />
               <span className='font-barlow text-lg font-semibold leading-loose'>Full-Stack Web Developer MERN.</span>
             </h2>
-            <p className='font-readex text-lg font-light leading-relaxed my-2 md:py-4'>
+            <p className='font-readex text-lg font-light leading-relaxed mx-2 my-2 md:py-4'>
               I Am Enthusiastic Web Developer Eager To Contribute To Team Success Through Hard Work, Attention To Detail, And Excellent Organizational Skills. A Clear Understanding Of &nbsp;<img src='https://resume.ranjansharma.tech/assets/javascript.svg' className='w-4 inline mt-[-5px]' />&nbsp; Javascript, ⚛️ React JS, And Training In MERN Stack. Motivated To Learn, Grow And Excel In The Dev Industry.
             </p>
             <button className='font-readex px-8 py-2.5 bg-red-500 border-2 text-sm md:text-lg font-normal hover:bg-secondary-color duration-500 rounded-full mr-6 tracking-wider'>Get Quote</button>
