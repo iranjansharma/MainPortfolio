@@ -1,5 +1,4 @@
 import { FC } from 'react';
-import About from '../About';
 import Nav from '../../components/Nav/Nav';
 
 
