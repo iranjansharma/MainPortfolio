@@ -11,9 +11,6 @@ const Skills: FC = () => {
         <Card />
         <Card />
         <Card />
-        <Card />
-        <Card />
-        <Card />
       </div>
     </div>
   );
