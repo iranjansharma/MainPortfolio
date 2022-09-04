@@ -3,11 +3,9 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Home from './pages/Home/Home';
 import Loader from './components/Loader/Loader';
-import Nav from './components/Nav/Nav';
 import About from './pages/About';
 import Projects from './pages/Projects';
 import Skills from './pages/Skills';
-import Work from './pages/Skills';
 
 const App: FC = () => {
   const currentRef = useRef(false);
