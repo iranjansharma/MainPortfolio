@@ -12,9 +12,6 @@ const Projects: FC = () => {
         <Card />
         <Card />
         <Card />
-        <Card />
-        <Card />
-        <Card />
       </div>
     </div>
 
