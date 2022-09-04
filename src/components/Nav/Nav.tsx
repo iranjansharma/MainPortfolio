@@ -1,6 +1,5 @@
 import React, { FC, useState } from 'react';
 import { Link } from 'react-router-dom';
-
 import { GiHamburgerMenu } from 'react-icons/gi';
 
 const Nav: FC = () => {
