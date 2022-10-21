@@ -25,7 +25,7 @@ const Nav: FC = () => {
   },
   {
     id: 3,
-    title: 'Skills2',
+    title: 'Skills',
     link: 'skills'
   },
   {
