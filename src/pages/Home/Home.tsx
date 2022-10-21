@@ -18,7 +18,7 @@ const Home: FC = () => {
               I Am Enthusiastic Web Developer Eager To Contribute To Team Success Through Hard Work, Attention To Detail, And Excellent Organizational Skills. A Clear Understanding Of &nbsp;<img src='https://resume.ranjansharma.tech/assets/javascript.svg' className='w-4 inline mt-[-5px]' />&nbsp; Javascript, ⚛️ React JS, And Training In MERN Stack. Motivated To Learn, Grow And Excel In The Dev Industry.
             </p>
             <button className='font-readex px-8 py-2.5 bg-red-500 border-2 text-sm md:text-lg font-normal hover:bg-secondary-color duration-500 rounded-full mr-6 tracking-wider'>Get Quote</button>
-            <button className='font-readex px-8 py-2.5 bg-transparent border-2 text-sm hover:bg-red-500 md:text-lg font-light duration-500 rounded-full tracking-wider'>About Me</button>
+            <a href="https://resume.ranjansharma.tech/assets/Ranjan_Resume.pdf" className='font-readex px-8 py-2.5 bg-transparent border-2 text-sm hover:bg-red-500 md:text-lg font-light duration-500 rounded-full tracking-wider'>Resume</a>
           </div>
           <div className='relative'>
             <img src="/assets/profile-pic3.png" alt="Ranjan-Sharma" loading='lazy' draggable="false" className='w-[200px] mx-auto md:w-[380px] md:h-[390px] rounded-lg animate' />
