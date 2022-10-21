@@ -20,7 +20,7 @@ const Nav: FC = () => {
   },
   {
     id: 2,
-    title: 'About',
+    title: 'About2',
     link: 'about'
   },
   {
