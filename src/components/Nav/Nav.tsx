@@ -16,7 +16,7 @@ const Nav: FC = () => {
   const navItems = [{
     id: 1,
     title: 'Home',
-    link: '/'
+    link: ''
   },
   {
     id: 2,
