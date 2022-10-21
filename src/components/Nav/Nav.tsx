@@ -30,7 +30,7 @@ const Nav: FC = () => {
   },
   {
     id: 4,
-    title: 'Projects1',
+    title: 'Projects',
     link: 'projects'
   }]
 
